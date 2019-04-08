@@ -70,3 +70,10 @@ $("form").submit(e => {
 - Moved Create new Todo to the Home Page.
 - Moved Edit Todo Form to the Home Page.
 - Updated Edit Form with updated Form.
+- Updated Delete Request Form with updated Form.
+- Made the applicaion into a single page application.
+
+## Microservices
+
+- Divided my app into two seperate app as client and server side.
+- 
