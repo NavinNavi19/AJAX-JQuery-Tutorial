@@ -65,11 +65,7 @@ app.put("/todos/:id", (req, res) => {
 app.delete("/todos/:id", (req, res) => {
   Todo.deleteOne({ _id: req.params.id })
     .then(result => {
-      if (req.xhr) {
-        res.json(result);
-      } else {
-        res.redirect("/todos");
-      }
+      res.json(result);
     })
     .catch(err => console.log(err));
 });
